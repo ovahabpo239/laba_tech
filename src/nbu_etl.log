@@ -1,0 +1,23 @@
+2026-05-02 21:22:46,144  INFO      ============================================================
+2026-05-02 21:22:46,144  INFO      NBU Exchange Rate ETL — starting
+2026-05-02 21:22:46,144  INFO        Start date : 2026-01-01
+2026-05-02 21:22:46,144  INFO        Currencies : ['USD', 'EUR', 'GBP', 'UAH']
+2026-05-02 21:22:46,145  INFO        Upsert rule: UPDATE
+2026-05-02 21:22:46,145  INFO      ============================================================
+2026-05-02 21:22:46,148  INFO      Loaded 488 existing records from exchange_rates.csv
+2026-05-02 21:22:46,154  INFO      No missing dates detected — database is up to date.
+2026-05-02 21:22:46,164  INFO      Saved 488 records to exchange_rates.csv
+2026-05-04 07:25:21,555  INFO      ============================================================
+2026-05-04 07:25:21,555  INFO      NBU Exchange Rate ETL — starting
+2026-05-04 07:25:21,555  INFO        Start date : 2026-01-01
+2026-05-04 07:25:21,555  INFO        Currencies : ['USD', 'EUR', 'GBP', 'UAH']
+2026-05-04 07:25:21,555  INFO        Upsert rule: UPDATE
+2026-05-04 07:25:21,555  INFO      ============================================================
+2026-05-04 07:25:21,555  INFO      Loaded 488 existing records from exchange_rates.csv
+2026-05-04 07:25:21,565  INFO      Seeded 2 UAH records (rate=1)
+2026-05-04 07:25:21,565  INFO      Found 2 dates with missing records
+2026-05-04 07:25:22,097  INFO      [2026-05-03] Fetched 45 currency records from NBU
+2026-05-04 07:25:22,177  INFO      [2026-05-04] Fetched 45 currency records from NBU
+2026-05-04 07:25:22,180  INFO      ETL summary — inserted: 6, updated: 0, skipped: 0, failed dates: 0
+2026-05-04 07:25:22,184  INFO      Saved 496 records to exchange_rates.csv
+2026-05-04 07:25:22,184  INFO      ETL complete.
